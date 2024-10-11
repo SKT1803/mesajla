@@ -1,0 +1,98 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+nav {
+  background-color: black;
+  /* border-bottom: 4px solid black; */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+nav ul {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around; */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  /* display: inline-block; */
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+nav .main-nav-a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  /* padding: 24px 32px; */
+  padding: 24px 32px;
+  /* transition: background-color 0.25s; */
+}
+
+nav .main-nav-a:hover {
+  background-color: white;
+  color: black;
+}
+
+.main-nav-active .main-nav-a {
+  background-color: white;
+  color: black;
+}
+
+#page-body {
+  margin: auto;
+  padding: 72px;
+}
+
+.home-page-content {
+  width: 60%;
+  text-align: justify;
+}
+
+
+.developers-page-anim, .home-page-anim{
+  position: relative;
+  animation-name: toDown;
+  animation-duration: 0.8s;
+  /* animation-fill-mode: forwards; */
+}
+@keyframes toDown {
+  from {
+    top: -300px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
