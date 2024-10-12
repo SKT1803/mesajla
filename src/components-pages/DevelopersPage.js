@@ -1,6 +1,7 @@
 import "../styles/flip-cards.css";
 
 import serdar from "../assets/serdar.jpeg";
+import ahmet from "../assets/ahmet.jpeg";
 import DevCart from "../components/DevCart";
 
 
@@ -10,7 +11,7 @@ const DevelopersPage = () => (
     <div className="flip-cards developers-page-anim">
 
         <div className="card-row">
-        <DevCart name={"Ahmet Tunahan"} surname={"Küçükgökce"} dep={"Computer Engineer"} imgSrc={""} gitSrc={"#"} linkedinSrc={"#"} />
+        <DevCart name={"Ahmet Tunahan"} surname={"Küçükgökce"} dep={"Computer Engineer"} imgSrc={ahmet} gitSrc={"https://github.com/Tunagkce"} linkedinSrc={"https://www.linkedin.com/in/ahmet-tunahan-k%C3%BC%C3%A7%C3%BCkg%C3%B6kce-52194795/"} />
         <DevCart name={"Altar"} surname={"Gürsoy"} dep={"Computer Engineer"} imgSrc={""} gitSrc={"#"} linkedinSrc={"#"} />
         </div>
         <div className="card-row">
