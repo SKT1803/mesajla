@@ -103,13 +103,13 @@ nav .main-nav-a:hover {
 }
 
 
-.developers-page-anim, .home-page-anim{
+.developers-page-anim, .home-page-anim, .docs-page-anim{
   position: relative;
-  animation-name: toDown;
+  animation-name: toRight;
   animation-duration: 1s;
   /* animation-fill-mode: forwards; */
 }
-@keyframes toDown {
+@keyframes toRight {
   from {
     left: -1300px;
   }

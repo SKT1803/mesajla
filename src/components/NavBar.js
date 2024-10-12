@@ -32,6 +32,13 @@ const NavBar = () => {
         </li>
 
         <li
+          className={splitLocation[1] === "documents" ? "main-nav-active" : ""}>
+          <Link className="main-nav-a" to="/documents">
+            Docs
+          </Link>
+        </li>
+
+        <li
           className={splitLocation[1] === "developers" ? "main-nav-active" : ""}>
           <Link className="main-nav-a" to="/developers">
             Devs
