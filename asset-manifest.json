@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/mesajla/static/css/main.dbf2a18b.css",
-    "main.js": "/mesajla/static/js/main.1815ad05.js",
+    "main.js": "/mesajla/static/js/main.062d02dc.js",
     "static/js/453.504a57c6.chunk.js": "/mesajla/static/js/453.504a57c6.chunk.js",
     "static/media/serdar.jpeg": "/mesajla/static/media/serdar.09e67e48675ba839ae7d.jpeg",
+    "static/media/burak.jpeg": "/mesajla/static/media/burak.de2d2def2d6f8ebad550.jpeg",
     "static/media/ahmet.jpeg": "/mesajla/static/media/ahmet.2b65445c85ebad566f8c.jpeg",
     "index.html": "/mesajla/index.html",
     "main.dbf2a18b.css.map": "/mesajla/static/css/main.dbf2a18b.css.map",
-    "main.1815ad05.js.map": "/mesajla/static/js/main.1815ad05.js.map",
+    "main.062d02dc.js.map": "/mesajla/static/js/main.062d02dc.js.map",
     "453.504a57c6.chunk.js.map": "/mesajla/static/js/453.504a57c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dbf2a18b.css",
-    "static/js/main.1815ad05.js"
+    "static/js/main.062d02dc.js"
   ]
 }
