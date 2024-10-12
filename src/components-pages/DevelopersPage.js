@@ -2,6 +2,7 @@ import "../styles/flip-cards.css";
 
 import serdar from "../assets/serdar.jpeg";
 import ahmet from "../assets/ahmet.jpeg";
+import burak from "../assets/burak.jpeg";
 import DevCart from "../components/DevCart";
 
 
@@ -15,7 +16,7 @@ const DevelopersPage = () => (
         <DevCart name={"Altar"} surname={"Gürsoy"} dep={"Computer Engineer"} imgSrc={""} gitSrc={"#"} linkedinSrc={"#"} />
         </div>
         <div className="card-row">
-        <DevCart name={"Burak Eren"} surname={"Birinci"} dep={"Computer Engineer"} imgSrc={""} gitSrc={"#"} linkedinSrc={"#"} />
+        <DevCart name={"Burak Eren"} surname={"Birinci"} dep={"Computer Engineer"} imgSrc={burak} gitSrc={"https://github.com/burakbrnc"} linkedinSrc={"www.linkedin.com/in/burak-eren-birinci-617024288"} />
         <DevCart name={"Serdar Kemal"} surname={"Topkaya"} dep={"Computer Engineer"} imgSrc={serdar} gitSrc={"https://github.com/SKT1803"} linkedinSrc={"#"} />
         </div>
         </div>
