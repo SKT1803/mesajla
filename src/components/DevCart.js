@@ -12,9 +12,9 @@ const DevCart = ({name, surname, dep, imgSrc, gitSrc, linkedinSrc}) => {
                 width: "200px",
                 height: "200px",
                 objectFit: "cover",
-                borderRadius: "50%",
-                border: "8px solid black",
-                boxShadow: "0 0 10px black, 0 0 20px black, 0 0 40px black",
+                borderRadius: "20px",
+                border: "6px solid #c8ad7f",
+                // boxShadow: "0 0 10px black, 0 0 20px black, 0 0 40px black",
               }}
             />
           </div>

@@ -1,9 +1,24 @@
-.flip-cards {
+.flip-container {
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.flip-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-around;
-  margin-top: 12%;
+  /* margin-top: 12%; */
+  margin-left: 10%;
   flex-wrap: wrap;
+  
+}
+
+.card-row {
+  display: flex;
+  width: 100%;
 }
 
 .flip-card {
@@ -42,10 +57,11 @@
 }
 
 .flip-card-back {
-  border: 5px solid black;
+  border: 5px solid #c8ad7f;
   border-radius: 10%;
   color: black;
   transform: rotateY(180deg);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .flip-card-back p {
