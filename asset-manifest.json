@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mesajla/static/css/main.ad0cb438.css",
+    "main.css": "/mesajla/static/css/main.4b31ba5f.css",
     "main.js": "/mesajla/static/js/main.78d475b6.js",
     "static/js/453.504a57c6.chunk.js": "/mesajla/static/js/453.504a57c6.chunk.js",
     "static/media/serdar.jpeg": "/mesajla/static/media/serdar.09e67e48675ba839ae7d.jpeg",
     "index.html": "/mesajla/index.html",
-    "main.ad0cb438.css.map": "/mesajla/static/css/main.ad0cb438.css.map",
+    "main.4b31ba5f.css.map": "/mesajla/static/css/main.4b31ba5f.css.map",
     "main.78d475b6.js.map": "/mesajla/static/js/main.78d475b6.js.map",
     "453.504a57c6.chunk.js.map": "/mesajla/static/js/453.504a57c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad0cb438.css",
+    "static/css/main.4b31ba5f.css",
     "static/js/main.78d475b6.js"
   ]
 }
