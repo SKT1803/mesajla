@@ -1,0 +1,143 @@
+.table-container {
+    height: 70vh;
+    overflow-y: scroll; 
+    margin-top: -2.5%; 
+    scrollbar-width: thin;
+    scrollbar-color: #c8ad7f #f3f3f3;
+    /* #009879 */
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 15%;
+    margin-top: -2.5%;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    
+}  
+/* thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+} */
+
+
+
+
+/* .table-container::-webkit-scrollbar {
+    width: 10px; 
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: #f3f3f3; 
+    border-radius: 5px; 
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: #009879; 
+    border-radius: 5px;
+    border: 2px solid #f3f3f3; 
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background-color: #007f62; 
+}  */
+
+
+
+thead tr {
+    background-color: #c8ad7f;
+    color: #ffffff;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1; /* Ensures the header stays above table rows */
+}
+
+th, td {
+    padding: 12px 15px;
+}
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
+tbody tr:first-of-type {
+    border-top: 50px solid #ffffff;
+   
+}
+tbody tr:first-of-type:hover {
+    box-sizing: border-box;
+    background-color: #c8ad7f !important;
+    color: #ffffff;
+    /* border-top: 1px solid #ffffff; */
+}
+tbody tr:hover, tbody tr:nth-of-type(even):hover {
+    background-color: #c8ad7f;
+    color: #ffffff;
+}
+
+.sprint-color {
+    background-color: #f0dfc3;
+}
+
+.sprint-font {
+    font-weight: bold;
+}
+/* tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+} */
+
+/* tbody tr:nth-of-type(even):hover {
+    background-color: #009879;
+} */
+
+tbody tr:last-of-type {
+    border-bottom: 3px solid #c8ad7f;
+}
+
+.logs-table {
+    position: relative;
+    animation-name: logsToDown;
+    animation-duration: 1s;  
+    /* animation-fill-mode: forwards; */
+
+}
+
+.button-container {
+    position: relative;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    margin-top: -4%;
+    margin-bottom: 20px;
+}
+
+.sprint-button {
+    padding: 25px;
+    margin: 50px 10px;
+    border: none;
+    background-color: #e8cfa8;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.sprint-button.active {
+    background-color: #a88a5d;
+}
+
+.sprint-button:hover {
+    background-color: #a88a5d;
+}
+
+
+@keyframes logsToDown {
+from {top: -600px;}
+to {top: 0px;}
+}

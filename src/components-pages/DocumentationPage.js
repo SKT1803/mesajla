@@ -8,8 +8,6 @@ import "../styles/doc-cards.css";
 const DocumentationsPage = () => (
   <>
     <div className="doc-cards docs-page-anim">
-     
-
       <Docs name={"Project Proposal"} link={projectProposal} />
       <Docs name={"Project Specifications Report"} link={projectSpecificationsReport} />
       <Docs name={"Project Analysis Report"} link={ProjectAnalysisReport} />
