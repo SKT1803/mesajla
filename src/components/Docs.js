@@ -13,7 +13,7 @@ const Docs = ({name, link}) => {
       >
         <div className="doc-card">
           <div className="doc-card-top">
-            <GrDocumentPdf style={{ width: "150px", height: "150px" }} />
+            <GrDocumentPdf style={{ width: "100px", height: "100px" }} />
           </div>
           <div className="doc-card-container">
             <h4>
