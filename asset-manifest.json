@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mesajla/static/css/main.ea23803d.css",
-    "main.js": "/mesajla/static/js/main.11bf7381.js",
+    "main.css": "/mesajla/static/css/main.61f841f0.css",
+    "main.js": "/mesajla/static/js/main.4bfa28ed.js",
     "static/js/453.504a57c6.chunk.js": "/mesajla/static/js/453.504a57c6.chunk.js",
     "static/media/Project Analysis Report.pdf": "/mesajla/static/media/Project Analysis Report.1d0c42b0845c5b51addc.pdf",
     "static/media/Test Plan Report.pdf": "/mesajla/static/media/Test Plan Report.e0cd4b87d1b2a227e6d4.pdf",
@@ -14,12 +14,12 @@
     "static/media/burak.jpeg": "/mesajla/static/media/burak.de2d2def2d6f8ebad550.jpeg",
     "static/media/ahmet.jpeg": "/mesajla/static/media/ahmet.2b65445c85ebad566f8c.jpeg",
     "index.html": "/mesajla/index.html",
-    "main.ea23803d.css.map": "/mesajla/static/css/main.ea23803d.css.map",
-    "main.11bf7381.js.map": "/mesajla/static/js/main.11bf7381.js.map",
+    "main.61f841f0.css.map": "/mesajla/static/css/main.61f841f0.css.map",
+    "main.4bfa28ed.js.map": "/mesajla/static/js/main.4bfa28ed.js.map",
     "453.504a57c6.chunk.js.map": "/mesajla/static/js/453.504a57c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea23803d.css",
-    "static/js/main.11bf7381.js"
+    "static/css/main.61f841f0.css",
+    "static/js/main.4bfa28ed.js"
   ]
 }
